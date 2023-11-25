@@ -19,7 +19,9 @@ public void login()
 		driver.findElement(By.name("email")).sendKeys("ajaydv@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("ajay12345");
 		driver.findElement(By.name("login")).click();
-		driver.findElement(By.linkText("Create new account")).click();)
+		driver.findElement(By.linkText("Create new account")).click();
+		driver.findElement(By.name("firstname")).sendKeys("ajay");
+		driver.findElement(By.name("lastname")).sendKeys("dv");
 		
 }
 }
